@@ -17,9 +17,6 @@ function gdiff() {
 }
 alias glines="git ls-files -z --exclude-standard | xargs -0 wc -l"
 
-if [ -f ./.zsh_env ]; then
-    source ./.zsh_env
-fi
 export GAI_MODEL="bfee6829-25cc-4112-9a46-a429ab1fb48d"
 export GAI_URL="https://gougoule.ch/api/v1/"
 alias gai="$HOME/git/pioucraft/gougoule-ai-frontend/main"
