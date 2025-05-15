@@ -38,3 +38,5 @@ generate_uuidv4() {
     "$(xxd -l 2 -p /dev/urandom | sed 's/^[0-9a-f]/[89ab]/g')" \
     "$(xxd -l 6 -p /dev/urandom)"
 }
+
+alias Files="cd $HOME/git/server/Files"
