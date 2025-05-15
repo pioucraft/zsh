@@ -39,4 +39,4 @@ generate_uuidv4() {
     "$(xxd -l 6 -p /dev/urandom)"
 }
 
-alias Files="cd $HOME/git/server/Files"
+export FILES="$HOME/git/server/Files"
