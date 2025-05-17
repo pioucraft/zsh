@@ -39,4 +39,4 @@ generate_uuidv4() {
     "$(xxd -l 6 -p /dev/urandom)"
 }
 
-export $FILES="$HOME/Files"
+export FILES="$HOME/Files"
